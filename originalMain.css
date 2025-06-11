@@ -1,4 +1,4 @@
-@import url("/assets-twenty-main/css/fontawesome-all.min.css");
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
@@ -6,7 +6,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -149,11 +148,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.15em;
 		letter-spacing: 0.025em;
-		color: #384c8a;
-		font-weight: 400;
-		
 	}
 
 	sub {
@@ -253,6 +249,7 @@ input, select, textarea {
 		}
 
 /* Row */
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1715,9 +1712,9 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 60px;
-						} 
+						}
 
-		} */
+		}
 
 /* Section/Article */
 
@@ -1731,13 +1728,12 @@ input, select, textarea {
 
 	header.special {
 		margin-bottom: 5em;
-		padding-top: 1em;
+		padding-top: 7em;
 		position: relative;
-		text-align: left;
-		justify-items: left;
+		text-align: center;
 	}
 
-		/* header.special:before, header.special:after {
+		header.special:before, header.special:after {
 			border-bottom: solid 1.5px;
 			border-top: solid 1.5px;
 			content: '';
@@ -1746,61 +1742,23 @@ input, select, textarea {
 			position: absolute;
 			top: 1.75em;
 			width: 43%;
-		} */
+		}
 
-		/* header.special:before {
+		header.special:before {
 			left: 0;
 		}
 
 		header.special:after {
 			right: 0;
-		} */
+		}
 
 		header.special h2 {
 			margin-bottom: 0;
-			color: #384c8a;
-			font-size: 2.3rem;
-			font-family: "Lato";
-			border-bottom: solid 1px #384c8a;
-			width: 20%;
-			padding-top: 0.5rem;
-			padding-bottom: 0.5rem;
-			letter-spacing: 0.5rem;
-			font-weight: 500;
-			}
+		}
 
-		#footer .copyright li {
-				display: inline-block;
-				margin-left: 1em;
-				padding-left: 1em;
-				border-left: dotted 1px;
-			}
-
-				#footer .copyright li:first-child {
-					margin: 0;
-					padding: 0;
-					border: 0;
-				}
-
-		header.special h2 + p{
+		header.special h2 + p {
 			margin-bottom: 0;
 			padding-top: 1.5em;
-		}
-
-		header.special p {
-			color: #384c8a;
-			padding-bottom: 0.5em;
-		}
-
-		header.special p2 {
-			color: #384c8a;
-			padding-top: 0em;
-			padding-bottom: 1em;
-			font-size: 1.5rem;
-		}
-
-		.blog__links {
-			color: #384c8a;
 		}
 
 		header.special .icon {
@@ -1813,15 +1771,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			/* header.special .icon:before {
+			header.special .icon:before {
 				font-size: 3.5em;
 				opacity: 0.35;
-			} */
-
-		header.special h3 {
-			padding-top: 1em;
-			padding-bottom: 0em;
-		}
+			}
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -1899,7 +1852,7 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("/assets-twenty-main/css/images/overlay.png");
+			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2151,22 +2104,17 @@ input, select, textarea {
 		}
 
 			table.default tbody tr {
-				border-bottom: double 2px rgba(124, 128, 129, 0.2);
-				color: #384c8a;
+				border-bottom: solid 1px rgba(124, 128, 129, 0.2);
 			}
 
 			table.default td {
 				padding: 0.5em 1em 0.5em 1em;
-				font-weight: 400;
-				border-right: double 2px rgba(124, 128, 129, 0.2);
-				color: #384c8a;
 			}
 
 			table.default th {
-				font-weight: 600;
+				font-weight: 400;
 				padding: 0.5em 1em 0.5em 1em;
 				text-align: left;
-				border-right: double 2px rgba(124, 128, 129, 0.2);
 			}
 
 			table.default thead {
@@ -2252,7 +2200,7 @@ input, select, textarea {
 			padding: 0.5em 0;
 		}
 
-/*   */
+/* Wrapper */
 
 	.wrapper {
 		margin-bottom: 5em;
@@ -2265,7 +2213,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("/assets-twenty-main/css/images/light-bl.svg"), url("/assets-twenty-main/css/images/light-br.svg");
+			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2305,18 +2253,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background: #e9f3fc;
+			background: #fff;
 			color: inherit;
 			padding: 4em;
-		}
-
-		.wrapper.style4 p {
-			color: #384c8a;
-		}
-
-		.wrapper.style4 h3 {
-			color: #384c8a;
-			font-size: 1.5rem;
 		}
 
 /* Header */
@@ -2362,13 +2301,13 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #645862;
+		background: #fff;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 0.75em 1.5em;
+		padding: 1em 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -2377,23 +2316,19 @@ input, select, textarea {
 
 		#header h1 {
 			font-weight: 900;
-			letter-spacing: 0.25em;
-			font-size: 1.2em;
 			margin: 0;
-			color: #f6f9ff;
 		}
 
 			#header h1 span {
 				font-weight: 300;
 			}
 
-		#header nav { /* navbar settings */
+		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
-			color: #f6f9ff;
 		}
 
 			#header nav ul {
@@ -2414,7 +2349,6 @@ input, select, textarea {
 					#header nav ul li a {
 						border: solid 1px transparent;
 						color: inherit;
-						font-size: 1em;
 						display: inline-block;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
@@ -2431,28 +2365,7 @@ input, select, textarea {
 						width: auto;
 					}
 
-					.dropdown__menu {
-						display: block;
-						position: absolute;
-						left: 0;
-						top: 100%;
-						background-color: var(--color-black);
-						z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
-					}
-
-					.dropdown__menu ul {
-						display: block;
-						margin: 10px;
-						z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
-					}
-
-					.dropdown__menu ul li {
-						width: 150px;
-						padding: 10px;
-						z-index: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
-					}
-
-					/* #header nav ul li.submenu > a {
+					#header nav ul li.submenu > a {
 						text-decoration: none;
 					}
 
@@ -2467,15 +2380,14 @@ input, select, textarea {
 							text-transform: none !important;
 							font-family: 'Font Awesome 5 Free';
 							font-weight: 900;
-						} 
-						
+						}
 
 						#header nav ul li.submenu > a:before {
 							content: '\f107';
 							margin-right: 0.65em;
-						} */
+						}
 
-					#header nav ul li.active > a, #header nav ul li:hover > a {  /*Hover effect for nav bar links/buttons */
+					#header nav ul li.active > a, #header nav ul li:hover > a {
 						-moz-transition: all 0.2s ease-in-out;
 						-webkit-transition: all 0.2s ease-in-out;
 						-ms-transition: all 0.2s ease-in-out;
@@ -2514,8 +2426,6 @@ input, select, textarea {
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
 					border: solid 1px;
 				}
-
-		
 
 /* Dropotron */
 
@@ -2617,10 +2527,10 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("/assets-twenty-main/css/images/overlay.png"), url("../../images-twenty-main/groupphotos_scioly25usc-20.jpg");
-		background-position: top center, top center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2683,7 +2593,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		/* background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"); */
+		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2715,7 +2625,7 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		/* background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2731,16 +2641,14 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #f3f6fa;
-		color: #656e70;
-		padding: 2.5em 5em 2.5em 5em;
+		background: #E8EEF4;
+		color: #7c8081;
+		padding: 5em 5em 10em 5em;
 		text-align: center;
-		height: 25vh;
 	}
 
 		#footer .copyright {
 			font-size: 0.8em;
-			letter-spacing: 0.1em;
 			line-height: 1em;
 		}
 
@@ -2761,18 +2669,6 @@ input, select, textarea {
 					border: 0;
 				}
 
-				#footer .developed {
-					letter-spacing: 0.020em;
-					font-size: 0.7rem;
-				}
-
-				#footer .developed li {
-				display: inline-block;
-				margin-left: 1em;
-				padding-left: 1em;
-				border-left: dotted 1px;
-			}
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2788,11 +2684,6 @@ input, select, textarea {
 			header.special {
 				padding-top: 5.5em;
 				margin-bottom: 4em;
-			}
-
-			#footer {
-				padding: 4em;
-				height: 20vh;
 			}
 
 	}
@@ -2812,13 +2703,6 @@ input, select, textarea {
 			h1, h2, h3, h4, h5, h6 {
 				line-height: 1.5em;
 			}
-
-			header.special h2 {
-				font-size: 1.5rem;
-			}
-
-
-			
 
 		/* Section/Article */
 
@@ -2864,7 +2748,6 @@ input, select, textarea {
 
 			#footer {
 				padding: 4em;
-				height: 25vh;
 			}
 
 	}
@@ -2883,7 +2766,9 @@ input, select, textarea {
 
 		/* Section/Article */
 
-
+			header br {
+				display: none;
+			}
 
 			header.major {
 				padding-bottom: 1em;
@@ -2892,10 +2777,6 @@ input, select, textarea {
 			header.special {
 				padding-left: 2.5em;
 				padding-right: 2.5em;
-			}
-
-			header.special h2 {
-				width: auto;
 			}
 
 			footer.major {
@@ -2928,7 +2809,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: auto, cover;
+				background-size: 15em, 15em, auto, cover;
 			}
 
 		/* Main */
@@ -2940,7 +2821,7 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
-				background-size: auto, cover;
+				background-size: 15em, 15em, auto, cover;
 				padding: 3em;
 			}
 
@@ -2975,10 +2856,6 @@ input, select, textarea {
 
 				header.special h2 + p {
 					padding-top: 1.25em;
-				}
-
-				header.special h2 {
-					margin-right: 1;
 				}
 
 		/* Section/Article */
@@ -3270,7 +3147,7 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.25em;
 				letter-spacing: 0.1em;
 			}
 
@@ -3387,7 +3264,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: auto, cover;
+				background-size: 10em, 10em, auto, cover;
 				padding: 6em 0;
 			}
 
@@ -3435,7 +3312,6 @@ input, select, textarea {
 
 			#footer {
 				padding: 3em 1.5em;
-				height: 50vh;
 			}
 
 				#footer .copyright li {
