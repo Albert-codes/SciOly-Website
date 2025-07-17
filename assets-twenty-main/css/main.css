@@ -1737,7 +1737,6 @@ input, select, textarea {
 			color: #384c8a;
 			font-size: 2.3rem;
 			font-family: "Lato";
-			border-bottom: solid 1px #384c8a;
 			width: 20%;
 			padding-top: 0.5rem;
 			padding-bottom: 0.5rem;
@@ -1798,6 +1797,52 @@ input, select, textarea {
 			padding-top: 1em;
 			padding-bottom: 0em;
 		}
+		
+		.history-heading {
+			position: relative;
+			display: inline-block;
+			padding: 1rem;
+			font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			}
+
+			.history-heading h5 {
+			font-weight: 700;
+			margin: 0;
+			line-height: 1.1;
+			color: #2D3E8B;
+			text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1); /* Drop shadow */
+			}
+
+			.history-heading .our {
+			font-size: 2rem;
+			}
+
+			.history-heading .history {
+			font-size: 3rem;
+			}
+
+			.corner {
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			border: 2px solid #333;
+			}
+
+			.top-left {
+			top: 0;
+			left: 0;
+			border-right: none;
+			border-bottom: none;
+			}
+
+			.bottom-right {
+			bottom: 0;
+			right: 0;
+			border-left: none;
+			border-top: none;
+			}
+
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -2668,6 +2713,11 @@ input, select, textarea {
 		padding-top: 1px;
 	}
 
+	p.alum {
+		column-count: 3;
+		column-rule-width: 1.5rem;
+	}
+
 	
 
 /* CTA */
@@ -2780,13 +2830,22 @@ input, select, textarea {
 			}
 
 			header.special h2 {
-				font-size: 1.5rem;
+				font-size: 1.4rem;
+			}
+
+			header.special p {
+				font-size: 1rem;
 			}
 
 
 			
 
 		/* Section/Article */
+
+			header.special {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
 
 			header.major {
 				padding-bottom: 1.5em;
