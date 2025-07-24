@@ -120,7 +120,7 @@ input, select, textarea {
 		font-weight: 400;
 	}
 
-	p, ul, ol, dl, table, blockquote {
+	ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
 
@@ -178,9 +178,18 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
 		max-width: 100%;
-		width: 1400px;
+	}
+
+	.alignb {
+		max-width: 100%;
+		max-width: 1400;
+		padding: 0em 3em;
+		justify-content: center;
+	}
+
+	.wrapper.style4 {
+		width: 1600px;
 	}
 
 		.container.medium {
@@ -189,7 +198,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
-			.container {
+			.wrapper.style4 {
 				width: 1200px;
 			}
 
@@ -201,7 +210,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			.container {
+			.wrapper.style4 {
 				width: 960px;
 			}
 
@@ -316,7 +325,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -1726,7 +1735,7 @@ input, select, textarea {
 
 	header.special {
 		margin-bottom: 5em;
-		padding-top: 1em;
+		padding: 1em 5em 0;
 		position: relative;
 		text-align: left;
 		justify-items: left;
@@ -1764,7 +1773,7 @@ input, select, textarea {
 
 		header.special p {
 			color: #384c8a;
-			padding-bottom: 0.5em;
+			padding-bottom: 0;
 		}
 
 		header.special p2 {
@@ -2281,7 +2290,15 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 1em 7em;
+		}
+
+		.wrapper.style1 p {
+			color: #384c8a;
+		}
+
+		.wrapper.style1 h4 {
+			color: #645862;
 		}
 
 		.wrapper.style2 {
@@ -2524,7 +2541,7 @@ input, select, textarea {
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		line-height: 2.25em;
 		min-width: 13em;
-		padding: 1em 0;
+		padding: 0.5em 0;
 		text-transform: uppercase;
 		margin-top: calc(-1em + 1px);
 	}
@@ -2679,6 +2696,12 @@ input, select, textarea {
 			}
 
 /* Main */
+	
+	
+
+	.txtblock {
+		padding: 10px;
+	}
 
 	#main {
 		/* background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"); */
@@ -2703,7 +2726,38 @@ input, select, textarea {
 				padding-top: 0;
 				margin-top: 0;
 			}
+	
+			.main-center {
+				padding-left: 7em;
+				padding-right: 7em;
+			}
 
+			.history-center {
+				padding-left: 5em;
+				padding-right: 5em;
+			}
+			
+			.joinus-center {
+				padding-left: 6em;
+				padding-right: 6em;
+			}
+
+			.event-center {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			.donate-center {
+				padding-left: 5em;
+				padding-right: 5em;
+			}
+			
+			.contact-center {
+				padding-left: 5em;
+				padding-right: 5em;
+			}
+	
+	
 	body.index #main {
 		padding-top: 5em;
 	}
@@ -2713,9 +2767,25 @@ input, select, textarea {
 		padding-top: 1px;
 	}
 
-	p.alum {
+	.alum-columns{
 		column-count: 3;
-		column-rule-width: 1.5rem;
+		column-rule-width: 2rem;
+		column-width: 0.5em;
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
+		.alumcol-style1 {
+			color: #384c8a;
+		}
+		
+		.alumtxt-style1  {
+			font-weight: 400;
+		}
+
+
+	.header-wrapper {
+		padding: 5px;
 	}
 
 	
@@ -2746,7 +2816,7 @@ input, select, textarea {
 		padding: 2.5em 5em 2.5em 5em;
 		text-align: center;
 		height: 25vh;
-	}
+	} 
 
 		#footer .copyright {
 			font-size: 0.8em;
@@ -2815,6 +2885,7 @@ input, select, textarea {
 			}
 	}
 	
+
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
@@ -2836,15 +2907,39 @@ input, select, textarea {
 			header.special p {
 				font-size: 1rem;
 			}
-
-
-			
+		
 
 		/* Section/Article */
 
 			header.special {
 				padding-left: 2.5em;
 				padding-right: 2.5em;
+			}
+
+			
+			.main-center {
+				padding-left: 5em;
+				padding-right: 5em;
+			}
+
+			.history-center {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			.event-center {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			.donate-center {
+				padding-left: 5em;
+				padding-right: 5em;
+			}
+			
+			.contact-center {
+				padding-left: 5em;
+				padding-right: 5em;
 			}
 
 			header.major {
@@ -2860,7 +2955,11 @@ input, select, textarea {
 			.wrapper {
 				margin-bottom: 4em;
 				padding: 4em 3em;
-			}
+			}	
+
+				.wrapper.style1 {
+					padding: 0 5em;
+				}
 
 				.wrapper.style4 {
 					padding: 3em;
@@ -2960,6 +3059,15 @@ input, select, textarea {
 
 			#main {
 				background-size: 15em;
+			}
+
+			.alum-columns{
+				padding-left: 1em;
+				padding-right: 1em;
+			}
+
+			.alumcol-style1{
+				font-size: 0.9em;
 			}
 
 		/* CTA */
@@ -3092,6 +3200,37 @@ input, select, textarea {
 
 			body.index #main {
 				padding-top: 4.5em;
+			}
+
+			.main-center {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			.history-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			.joinus-center {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			.event-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+			
+
+			.donate-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+			
+			.contact-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
 			}
 
 		/* CTA */
@@ -3324,6 +3463,14 @@ input, select, textarea {
 					padding-right: 1.5em;
 				}
 
+				header.special p {
+					font-size: 0.9rem;
+				}
+
+				.txtblock {
+					padding: 10px;
+				}
+
 					header.special:before, header.special:after {
 						width: 38%;
 					}
@@ -3449,6 +3596,46 @@ input, select, textarea {
 				padding-bottom: 0;
 			}
 
+			.main-center {
+				padding-left: 1.5em;
+				padding-right: 1.5em;
+			}
+
+			.event-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			.history-center {
+				padding-left: 2em;
+				padding-right: 2em;
+			}
+			
+			.joinus-center {
+				padding-left: 2em;
+				padding-right: 2em;
+			}
+
+
+			.donate-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+			
+			.contact-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			.alum-columns{
+				padding-left:0.5em;
+				padding-right: 0.5em;
+			}
+
+				.alumcol-style1{
+					font-size: 0.8em;
+				}
+
 		/* CTA */
 
 			#cta {
@@ -3487,4 +3674,42 @@ input, select, textarea {
 				height: 34px;
 			}
 
+	}
+
+	@media screen and (max-width: 460px){		
+			.heading-img {
+				height: 100%;
+				width: 100%;
+				min-width: 250px;
+			}
+
+			.main-center {
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+			}
+			
+			.joinus-center {
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+			}
+
+
+			.event-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			.alignb {
+				padding: 0 1em;
+			}
+
+			.donate-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+			
+			.contact-center {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
 	}
