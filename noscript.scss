@@ -1,0 +1,14 @@
+@import '/assets-twenty-main/sass/libs/vars';
+@import '/assets-twenty-main/sass/libs/functions';
+@import '/assets-twenty-main/sass/libs/mixins';
+@import '/assets-twenty-main/sass/libs/vendor';
+@import '/assets-twenty-main/sass/libs/breakpoints';
+@import '/assets-twenty-main/sass/libs/html-grid';
+
+/* Banner */
+
+	#banner {
+		.inner {
+			opacity: 1;
+		}
+	}
