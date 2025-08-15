@@ -1,9 +1,9 @@
-@import '/assets-twenty-main/sass/libs/vars';
-@import '/assets-twenty-main/sass/libs/functions';
-@import '/assets-twenty-main/sass/libs/mixins';
-@import '/assets-twenty-main/sass/libs/vendor';
-@import '/assets-twenty-main/sass/libs/breakpoints';
-@import '/assets-twenty-main/sass/libs/html-grid';
+@import 'sass/libs/vars';
+@import 'sass/libs/functions';
+@import 'sass/libs/mixins';
+@import 'sass/libs/vendor';
+@import 'sass/libs/breakpoints';
+@import 'sass/libs/html-grid';
 
 /* Banner */
 
@@ -11,4 +11,5 @@
 		.inner {
 			opacity: 1;
 		}
+
 	}
