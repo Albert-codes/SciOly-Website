@@ -571,7 +571,7 @@ table.default td, table.default th {
 	}
 
 		.image:before {
-			background: url("/assets-twenty-main/css/images/overlay.png");
+			background: url("overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2365,3 +2365,4 @@ table.default td, table.default th {
 			}
 
 	}
+
