@@ -1,9 +1,9 @@
-@import 'sass/libs/vars';
-@import 'sass/libs/functions';
-@import 'sass/libs/mixins';
-@import 'sass/libs/vendor';
-@import 'sass/libs/breakpoints';
-@import 'sass/libs/html-grid';
+@import 'vars';
+@import 'functions';
+@import 'mixins';
+@import 'vendor';
+@import 'breakpoints';
+@import 'html-grid';
 
 /* Banner */
 
@@ -13,3 +13,4 @@
 		}
 
 	}
+
