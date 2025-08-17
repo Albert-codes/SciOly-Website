@@ -143,6 +143,7 @@ input, select, textarea {
 		letter-spacing: 0.1em;
 	}
 
+
 	h3 {
 		font-size: 1.5em;
 		letter-spacing: 0.025em;
@@ -295,6 +296,10 @@ input, select, textarea {
 		.row.aln-bottom {
 			align-items: flex-end;
 		}
+  .responsive-logo {
+    max-width: 100%;
+    height: auto;
+  }
 
 /* Responsive Table Wrapper */
 .table-responsive {
@@ -2365,4 +2370,5 @@ table.default td, table.default th {
 			}
 
 	}
+
 
