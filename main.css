@@ -295,7 +295,15 @@ input, select, textarea {
 		.row.aln-bottom {
 			align-items: flex-end;
 		}
-
+/* responsive logo for small devices */
+   @media (max-width: 738px) {
+    .responsive-logo {
+			 display: block;
+  margin: 0 auto;
+  height: auto;
+  width: clamp(250px, 80%, 600px);
+    }
+  }
 /* Responsive Table Wrapper */
 .table-responsive {
 	overflow-x: auto;
@@ -2365,4 +2373,5 @@ table.default td, table.default th {
 			}
 
 	}
+
 
